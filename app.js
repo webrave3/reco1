@@ -1,5 +1,6 @@
-function App() {
-  return <h1>Hello World2!</h1>;
-}
+const App = () => {
+  return <h1>Hello World!</h1>;
+};
 
-document.getElementById('root').appendChild(App());
+const rootElement = document.getElementById('root');
+ReactDOM.render(<App />, rootElement);
