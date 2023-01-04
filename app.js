@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello from APP.jS123!</h1>
-    </div>
+    <React.Fragment>
+      {console.log('Hello from app.js!')}
+    </React.Fragment>
   );
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
